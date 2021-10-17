@@ -1,0 +1,65 @@
+$color1: #efefef;
+$black: #000;
+$white: #fff;
+$color4: #c91010;
+$color5: #f54337;
+$color6: #90caf9;
+$color7: #f8f8f8;
+$color8: #757575;
+$color9: #1a1a1a;
+$color10: #00c3a8;
+$color11: #c7c7c7;
+$color12: #778288;
+$color13: #f0f0f0;
+$color14: #d3aaa4;
+$color15: #f8f8f8;
+$color16: #c0c0c0;
+$color17: #3b5998;
+$color18: #30384a;
+$color19: #f8ecdc;
+$color20: #372928;
+$color21: #485f2a;
+
+$font50: 3.125rem;
+$font30: 1.875rem;
+$font32: 2rem;
+$font22: 1.375rem;
+$font18: 1.125rem;
+$font16: 1rem;
+$font14: 0.875rem;
+$font12: 0.75rem;
+$font10: 0.625rem;
+
+h2 {
+    font-size: $font16;
+}
+
+h3 {
+    font-size: $font14;
+}
+
+h4 {
+    font-size: $font12;
+}
+
+.font18 {
+    font-size: $font18 !important;
+}
+
+.icon-1x {
+    font-size: 1.2rem;
+}
+
+.icon-2x {
+    font-size: 2em;
+}
+
+.icon-3x {
+    font-size: 3em;
+}
+
+.icon-4x {
+    font-size: 4em;
+}
+
+$fontmedium: "gt_americamedium";

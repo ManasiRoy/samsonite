@@ -1,0 +1,463 @@
+@font-face {
+  font-family: "samsonite";
+  src: url("fonts/samsonite.eot?gw8tx5");
+  src: url("fonts/samsonite.eot?gw8tx5#iefix") format("embedded-opentype"),
+    url("fonts/samsonite.ttf?gw8tx5") format("truetype"), url("fonts/samsonite.woff?gw8tx5") format("woff"),
+    url("fonts/samsonite.svg?gw8tx5#samsonite") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "samsonite" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-like:before {
+  content: "\e912";
+}
+.icon-plus:before {
+  content: "\e911";
+  color: #757575;
+}
+.icon-pencil:before {
+  content: "\e90f";
+  color: #757575;
+}
+.icon-delete:before {
+  content: "\e910";
+  color: #757575;
+}
+
+.icon-switch:before {
+  content: "\e90e";
+}
+
+.icon-user:before {
+  content: "\e90c";
+}
+
+.icon-pin:before {
+  content: "\e90d";
+}
+
+.icon-language:before {
+  content: "\e900";
+}
+
+.icon-padlock:before {
+  content: "\e901";
+}
+
+.icon-return:before {
+  content: "\e902";
+}
+
+.icon-timer:before {
+  content: "\e90b";
+}
+
+.icon-apple:before {
+  content: "\e97f";
+  color: #757575;
+}
+
+.icon-video:before {
+  content: "\e975";
+}
+
+.icon-zoom:before {
+  content: "\e976";
+}
+
+.icon-american-black .path1:before {
+  content: "\e94e";
+  color: rgb(20, 20, 20);
+}
+
+.icon-american-black .path2:before {
+  content: "\e94f";
+  margin-left: -1.9072265625em;
+  color: rgb(20, 20, 20);
+}
+
+.icon-american-black .path3:before {
+  content: "\e950";
+  margin-left: -1.9072265625em;
+  color: rgb(20, 20, 20);
+}
+
+.icon-american-black .path4:before {
+  content: "\e951";
+  margin-left: -1.9072265625em;
+  color: rgb(20, 20, 20);
+}
+
+.icon-american-black .path5:before {
+  content: "\e952";
+  margin-left: -1.9072265625em;
+  color: rgb(20, 20, 20);
+}
+
+.icon-american-black .path6:before {
+  content: "\e953";
+  margin-left: -1.9072265625em;
+  color: rgb(20, 20, 20);
+}
+
+.icon-american-black .path7:before {
+  content: "\e954";
+  margin-left: -1.9072265625em;
+  color: rgb(51, 51, 51);
+}
+
+.icon-american-black .path8:before {
+  content: "\e955";
+  margin-left: -1.9072265625em;
+  color: rgb(20, 20, 20);
+}
+
+.icon-american-black .path9:before {
+  content: "\e956";
+  margin-left: -1.9072265625em;
+  color: rgb(20, 20, 20);
+}
+
+.icon-master-black .path1:before {
+  content: "\e95d";
+  color: rgb(20, 20, 20);
+}
+
+.icon-master-black .path2:before {
+  content: "\e95e";
+  margin-left: -1.1572265625em;
+  color: rgb(133, 133, 133);
+}
+
+.icon-master-black .path3:before {
+  content: "\e95f";
+  margin-left: -1.1572265625em;
+  color: rgb(20, 20, 20);
+}
+
+.icon-master-black .path4:before {
+  content: "\e960";
+  margin-left: -1.1572265625em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-master-black .path5:before {
+  content: "\e961";
+  margin-left: -1.1572265625em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-paypal-black .path1:before {
+  content: "\e969";
+  color: rgb(133, 133, 133);
+}
+
+.icon-paypal-black .path2:before {
+  content: "\e96a";
+  margin-left: -2em;
+  color: #757575;
+}
+
+.icon-paypal-black .path3:before {
+  content: "\e96b";
+  margin-left: -2em;
+  color: rgb(133, 133, 133);
+}
+
+.icon-paypal-black .path4:before {
+  content: "\e96c";
+  margin-left: -2em;
+  color: #757575;
+}
+
+.icon-paypal-black .path5:before {
+  content: "\e96d";
+  margin-left: -2em;
+  color: rgb(133, 133, 133);
+}
+
+.icon-visa-black .path1:before {
+  content: "\e973";
+  color: #757575;
+}
+
+.icon-visa-black .path2:before {
+  content: "\e974";
+  margin-left: -1.4169921875em;
+  color: rgb(133, 133, 133);
+}
+
+.icon-down-arrow .path1:before {
+  content: "\e946";
+  color: rgb(255, 193, 7);
+}
+
+.icon-down-arrow .path2:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-up-arrow .path1:before {
+  content: "\e948";
+  color: rgb(255, 193, 7);
+}
+
+.icon-up-arrow .path2:before {
+  content: "\e949";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-tick:before {
+  content: "\e945";
+}
+
+.icon-filter:before {
+  content: "\e944";
+}
+
+.icon-leftarrow:before {
+  content: "\e943";
+}
+
+.icon-menu-icon:before {
+  content: "\e942";
+  color: #fff;
+}
+
+.icon-watch:before {
+  content: "\e941";
+}
+
+.icon-right-arrow:before {
+  content: "\e93b";
+}
+
+.icon-arrow:before {
+  content: "\e93a";
+}
+
+.icon-american .path1:before {
+  content: "\e903";
+  color: rgb(255, 255, 255);
+}
+
+.icon-american .path2:before {
+  content: "\e904";
+  margin-left: -2.6669921875em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-american .path3:before {
+  content: "\e905";
+  margin-left: -2.6669921875em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-american .path4:before {
+  content: "\e906";
+  margin-left: -2.6669921875em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-american .path5:before {
+  content: "\e907";
+  margin-left: -2.6669921875em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-american .path6:before {
+  content: "\e908";
+  margin-left: -2.6669921875em;
+  color: rgb(34, 143, 224);
+}
+
+.icon-american .path7:before {
+  content: "\e909";
+  margin-left: -2.6669921875em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-bag:before {
+  content: "\e90a";
+}
+
+.icon-facebook:before {
+  content: "\e914";
+  color: #fff;
+}
+
+.icon-insta:before {
+  content: "\e916";
+  color: #fff;
+}
+
+.icon-mail:before {
+  content: "\e918";
+  color: #fff;
+}
+
+.icon-mastercard .path1:before {
+  content: "\e919";
+  color: rgb(255, 255, 255);
+}
+
+.icon-mastercard .path2:before {
+  content: "\e91a";
+  margin-left: -1.72265625em;
+  color: rgb(133, 133, 133);
+}
+
+.icon-mastercard .path3:before {
+  content: "\e91b";
+  margin-left: -1.72265625em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-mastercard .path4:before {
+  content: "\e91c";
+  margin-left: -1.72265625em;
+  color: rgb(20, 20, 20);
+}
+
+.icon-payment:before {
+  content: "\e921";
+}
+
+.icon-paypal .path1:before {
+  content: "\e922";
+  color: rgb(133, 133, 133);
+}
+
+.icon-paypal .path2:before {
+  content: "\e923";
+  margin-left: -3.3330078125em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-paypal .path3:before {
+  content: "\e924";
+  margin-left: -3.3330078125em;
+  color: rgb(133, 133, 133);
+}
+
+.icon-paypal .path4:before {
+  content: "\e925";
+  margin-left: -3.3330078125em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-paypal .path5:before {
+  content: "\e926";
+  margin-left: -3.3330078125em;
+  color: rgb(133, 133, 133);
+}
+
+.icon-pint:before {
+  content: "\e927";
+  color: #fff;
+}
+
+.icon-remove:before {
+  content: "\e928";
+}
+
+.icon-search:before {
+  content: "\e92a";
+}
+
+.icon-shipping:before {
+  content: "\e92b";
+}
+
+.icon-shopify .path1:before {
+  content: "\e92c";
+  color: rgb(255, 255, 255);
+}
+
+.icon-shopify .path2:before {
+  content: "\e92d";
+  margin-left: -3.0556640625em;
+  color: rgb(133, 133, 133);
+}
+
+.icon-shopify .path3:before {
+  content: "\e92e";
+  margin-left: -3.0556640625em;
+  color: rgb(189, 189, 189);
+}
+
+.icon-skype:before {
+  content: "\e92f";
+  color: #fff;
+}
+
+.icon-stripe .path1:before {
+  content: "\e930";
+  color: rgb(235, 235, 235);
+}
+
+.icon-stripe .path2:before {
+  content: "\e931";
+  margin-left: -2.72265625em;
+  color: rgb(20, 20, 20);
+}
+
+.icon-stripe .path3:before {
+  content: "\e932";
+  margin-left: -2.72265625em;
+  color: rgb(255, 255, 255);
+}
+
+.icon-time:before {
+  content: "\e933";
+  color: #fff;
+}
+
+.icon-twitter:before {
+  content: "\e934";
+  color: #fff;
+}
+
+.icon-uparrow:before {
+  content: "\e935";
+  color: #bdbdbd;
+}
+
+.icon-visa .path1:before {
+  content: "\e936";
+  color: rgb(255, 255, 255);
+}
+
+.icon-visa .path2:before {
+  content: "\e937";
+  margin-left: -3.0830078125em;
+  color: rgb(133, 133, 133);
+}
+
+.icon-wishlist:before {
+  content: "\e938";
+  color: #fff;
+}
+
+.icon-youTube:before {
+  content: "\e939";
+  color: #fff;
+}

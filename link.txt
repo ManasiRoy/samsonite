@@ -1,0 +1,8 @@
+Homepage -> https://www.samsonite.co.uk/
+Listing -> https://www.samsonite.co.uk/all-luggage/?pages=2&prefn1=customAirlineReferences&prefv1=55x40x20cm
+Product -> https://www.samsonite.co.uk/securipak-laptop-backpack-15.6---true-blue/128822-1875.html (without any of the personilization functionality)
+Cart page -> https://www.samsonite.co.uk/cart/
+Login page -> https://www.samsonite.co.uk/login/
+Info page -> https://www.samsonite.co.uk/our-guarantee.html
+About us: https://www.samsonite.co.uk/about-samsonite/
+
