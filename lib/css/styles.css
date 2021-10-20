@@ -151,7 +151,6 @@ a {
   font-size: 1rem;
   padding: 1rem 2rem;
   transition: all 0.3s ease-in;
-  -webkit-transition: all 0.3s ease-in;
   background: #000;
   color: #fff;
 }
@@ -558,13 +557,11 @@ main.main {
   line-height: 1;
   display: flex;
   transition: all 0.3s ease-in;
-  -webkit-transition: all 0.3s ease-in;
 }
 
 .product-outr .pro-inr-details .btn-compare .compare {
   opacity: 0;
   transition: all 0.3s ease-in;
-  -webkit-transition: all 0.3s ease-in;
   font-size: 0;
   text-transform: inherit !important;
 }
@@ -582,7 +579,6 @@ main.main {
 
 .product-outr.onhover {
   transition: all 0.3s ease-in;
-  -webkit-transition: all 0.3s ease-in;
 }
 
 .product-outr.onhover .pro-inr-details {
@@ -680,7 +676,6 @@ main.main {
   font-size: 0.875rem;
   min-width: 85px;
   color: #fff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#757575));
   background-image: linear-gradient(transparent, #757575);
   padding: 10px;
   text-align: center;
@@ -887,7 +882,6 @@ main.main {
   top: 0;
   width: 100%;
   transform: scaleX(1.8);
-  -webkit-transform: scaleX(1.8);
 }
 
 .search-outr {
@@ -934,11 +928,6 @@ main.main {
   box-shadow: none;
 }
 
-.search-outr .inputoutr .form-control::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  font-size: 30px;
-  color: #757575;
-}
 
 .search-outr .inputoutr .form-control::-moz-placeholder {
   /* Firefox 19+ */
@@ -1218,7 +1207,6 @@ body.comparefixed .search-outr {
 
 .product-category ul li {
   display: block;
-  -webkit-box-flex: 0;
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
@@ -2589,7 +2577,6 @@ div#scrollbar5 .handle {
   color: #000;
   font-weight: 700;
   font-family: "gt_americamedium";
-  -webkit-text-stroke: #000 4px;
 }
 
 .category-catch-outr .catch-outr {
@@ -2612,7 +2599,6 @@ div#scrollbar5 .handle {
   width: 45%;
   top: 50%;
   transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
 }
 
 .category-catch-outr .owl-nav .owl-prev,
@@ -2827,7 +2813,6 @@ h3.outline {
 }
 
 #sizeGuide .modal-body .rangewrap input[type="range"] {
-  -webkit-appearance: none;
   cursor: pointer;
   transform: rotate(270deg) translateX(70px);
   width: 170px;
@@ -2858,7 +2843,6 @@ h3.outline {
 
 #sizeGuide .modal-body .size-guide-input-size .arrow {
   display: inline-block;
-  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   margin-right: 10px;
   padding: 3px;
@@ -2879,7 +2863,6 @@ h3.outline {
 
 #sizeGuide .modal-body #big .owl-item {
   align-self: flex-end;
-  -webkit-animation-duration: 3s !important;
   animation-duration: 3s !important;
 }
 
@@ -2990,13 +2973,6 @@ h3.outline {
   display: inline-block;
 }
 
-@supports (text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff) {
-  h3.outline {
-    color: transparent;
-    -webkit-text-stroke: 1px #fff;
-    text-shadow: none;
-  }
-}
 
 @media only screen and (max-width: 1024px) {
   .navbar-toggler {
@@ -3197,11 +3173,7 @@ h3.outline {
     padding: 0.5rem;
   }
 
-  .search-outr .inputoutr .form-control::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    font-size: 1em;
-    color: #757575;
-  }
+
 
   .search-outr .inputoutr .form-control::-moz-placeholder {
     /* Firefox 19+ */
@@ -3439,15 +3411,12 @@ h3.outline {
     height: 100%;
     max-width: 100%;
     transform: translateX(100%);
-    -webkit-transform: translateX(100%);
     transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
     top: 57px;
   }
 
   #sortbody.active {
     transform: translateX(0);
-    -webkit-transform: translateX(0);
   }
 
   #sortby {
@@ -3470,15 +3439,12 @@ h3.outline {
     overflow-y: auto;
     max-width: 100%;
     transform: translateX(100%);
-    -webkit-transform: translateX(100%);
     transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
     top: 57px;
   }
 
   #filterbody.active {
     transform: translateX(0);
-    -webkit-transform: translateX(0);
   }
 
   .top-product-cat-details {
@@ -3567,7 +3533,6 @@ h3.outline {
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    -webkit-border-radius: 100%;
     content: "";
     display: block;
     position: absolute;
