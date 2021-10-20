@@ -2994,7 +2994,6 @@ h3.outline {
   h3.outline {
     color: transparent;
     -webkit-text-stroke: 1px #fff;
-    text-stroke: 1px #fff;
     text-shadow: none;
   }
 }
