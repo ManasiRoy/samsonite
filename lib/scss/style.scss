@@ -594,7 +594,7 @@ main.main {
         color: $black;
         font-size: $font14;
         text-transform: uppercase;
-    }
+    } 
 }
 
 .sidebanner {
@@ -1420,9 +1420,6 @@ body.comparefixed {
         width: auto !important;
         cursor: pointer;
         padding: 6px 0px 6px 33px !important;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
 
         input {
             position: absolute;
@@ -2870,7 +2867,6 @@ h3.outline {
     h3.outline {
         color: transparent;
         -webkit-text-stroke: 1px $white;
-        text-stroke: 1px $white;
         text-shadow: none;
     }
 }
